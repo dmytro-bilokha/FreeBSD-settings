@@ -9,7 +9,6 @@ databases/mysql80-client
 databases/mysql80-server
 deskutils/xchm
 devel/git
-devel/maven
 devel/subversion
 dns/dnsmasq
 editors/libreoffice
@@ -23,14 +22,8 @@ graphics/geeqie
 graphics/gimp
 graphics/qiv
 graphics/sxiv
-graphics/yed
 graphics/zathura
-java/icedtea-web
-java/intellij
 java/bootstrap-openjdk8
-java/openjdk8
-java/openjfx8-devel
-java/visualvm
 mail/mutt
 misc/mbuffer
 misc/mc-light
