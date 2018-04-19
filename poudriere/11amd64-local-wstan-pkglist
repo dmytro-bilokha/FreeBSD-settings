@@ -51,8 +51,11 @@ sysutils/tmux
 sysutils/zfs-periodic
 textproc/antiword
 textproc/en-aspell
+textproc/sassc
+textproc/source-highlight
 ukrainian/aspell
 ukrainian/hunspell
+www/bluefish
 www/firefox-esr
 www/luakit
 www/palemoon
