@@ -11,6 +11,7 @@ deskutils/xchm
 devel/git
 devel/subversion
 dns/dnsmasq
+editors/codelite
 editors/libreoffice
 editors/vim
 emulators/virtualbox-ose
