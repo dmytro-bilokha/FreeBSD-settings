@@ -30,7 +30,9 @@ misc/mbuffer
 misc/mc-light
 multimedia/ffmpeg
 multimedia/mplayer
+multimedia/pwcview
 multimedia/vdpauinfo
+multimedia/webcamd
 net/netcat
 net/rsync
 ports-mgmt/poudriere
