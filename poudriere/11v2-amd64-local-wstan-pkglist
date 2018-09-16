@@ -36,6 +36,7 @@ multimedia/vdpauinfo
 multimedia/webcamd
 net/netcat
 net/rsync
+net/x11vnc
 ports-mgmt/poudriere
 ports-mgmt/pkg_cleanup
 print/texlive-full
