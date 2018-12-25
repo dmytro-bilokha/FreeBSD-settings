@@ -12,7 +12,6 @@ deskutils/xchm
 devel/git
 devel/subversion
 dns/dnsmasq
-editors/2bsd-vi
 editors/codelite
 editors/libreoffice
 editors/vim
