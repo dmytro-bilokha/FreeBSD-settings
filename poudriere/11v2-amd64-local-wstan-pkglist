@@ -5,11 +5,15 @@ archivers/zip
 audio/cmus
 audio/flac
 audio/mpg321
+audio/virtual_oss
 cad/librecad
 databases/mysql80-client
 databases/mysql80-server
+databases/sqldeveloper
 deskutils/xchm
 devel/git
+devel/gradle
+devel/maven
 devel/subversion
 dns/dnsmasq
 editors/codelite
@@ -26,6 +30,11 @@ graphics/qiv
 graphics/sxiv
 graphics/zathura
 java/bootstrap-openjdk8
+java/icedtea-web
+java/intellij
+java/openjdk8
+java/openjfx8-devel
+java/visualvm
 mail/mutt
 misc/mbuffer
 misc/mc-light
@@ -34,6 +43,7 @@ multimedia/mplayer
 multimedia/pwcview
 multimedia/vdpauinfo
 multimedia/webcamd
+net/linphone
 net/netcat
 net/rsync
 net/x11vnc
