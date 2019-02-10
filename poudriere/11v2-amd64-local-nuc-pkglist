@@ -1,6 +1,8 @@
 dns/inadyn
 editors/vim-tiny
+java/openjdk8
 net/netcat
 net-p2p/transmission-daemon
+ports-mgmt/poudriere
 sysutils/tmux
 sysutils/zfs-periodic
