@@ -91,6 +91,7 @@ x11-themes/gtk-murrine-engine
 x11-wm/awesome
 x11-wm/xfce4
 x11/nvidia-driver-340
+x11/printscreen
 x11/rxvt-unicode
 x11/setxkbmap
 x11/slim
