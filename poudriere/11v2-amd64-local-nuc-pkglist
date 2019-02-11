@@ -3,7 +3,7 @@ editors/vim-tiny
 java/openjdk8
 net/netcat
 net-p2p/transmission-daemon
-net-p2p/transmission-web
 ports-mgmt/poudriere
 sysutils/tmux
 sysutils/zfs-periodic
+www/transmission-web
