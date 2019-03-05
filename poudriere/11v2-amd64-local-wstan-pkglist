@@ -56,8 +56,6 @@ russian/mueller-dic
 security/kpcli
 security/sudo
 security/vuxml
-sysutils/fusefs-libs
-sysutils/fusefs-wdfs
 sysutils/htop
 sysutils/kiconvtool
 sysutils/lsof
