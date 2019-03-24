@@ -29,9 +29,14 @@ graphics/gimp
 graphics/qiv
 graphics/sxiv
 graphics/zathura
+graphics/zathura-djvu
+graphics/zathura-pdf-mupdf
+graphics/zathura-ps
 java/bootstrap-openjdk8
+java/bootstrap-openjdk11
 java/icedtea-web
 java/intellij
+java/javavmwrapper
 java/openjdk8
 java/openjdk11
 java/openjfx8-devel
