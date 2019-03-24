@@ -33,6 +33,7 @@ java/bootstrap-openjdk8
 java/icedtea-web
 java/intellij
 java/openjdk8
+java/openjdk11
 java/openjfx8-devel
 java/visualvm
 mail/mutt
@@ -46,6 +47,7 @@ multimedia/webcamd
 net/linphone
 net/netcat
 net/rsync
+net/tigervnc
 net/x11vnc
 ports-mgmt/poudriere
 ports-mgmt/pkg_cleanup
@@ -56,6 +58,8 @@ russian/mueller-dic
 security/kpcli
 security/sudo
 security/vuxml
+sysutils/bhyve-firmware
+sysutils/grub2-bhyve
 sysutils/htop
 sysutils/kiconvtool
 sysutils/lsof
