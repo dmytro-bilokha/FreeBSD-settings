@@ -18,6 +18,7 @@ devel/subversion
 dns/dnsmasq
 editors/codelite
 editors/libreoffice
+editors/openoffice-4
 editors/vim
 emulators/virtualbox-ose
 emulators/virtualbox-ose-kmod
@@ -83,6 +84,7 @@ www/iridium
 www/npm
 www/palemoon
 www/privoxy
+www/tomcat9
 www/youtube_dl
 www/w3m
 x11-fonts/anonymous-pro
