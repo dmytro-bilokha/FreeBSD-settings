@@ -79,6 +79,7 @@ shells/zsh
 sysutils/bhyve-firmware
 sysutils/grub2-bhyve
 sysutils/htop
+sysutils/iocage
 sysutils/kiconvtool
 sysutils/lsof
 sysutils/rsnapshot
