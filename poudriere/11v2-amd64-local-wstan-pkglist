@@ -14,6 +14,7 @@ deskutils/xchm
 devel/git
 devel/gradle
 devel/maven
+devel/py-pip
 devel/subversion
 dns/dnsmasq
 editors/codelite
@@ -22,6 +23,7 @@ editors/openoffice-4
 editors/vim
 emulators/virtualbox-ose
 emulators/virtualbox-ose-kmod
+finance/electrum
 ftp/lftp
 ftp/wget
 graphics/evince-lite
@@ -29,13 +31,13 @@ graphics/geeqie
 graphics/gimp
 graphics/qiv
 graphics/sxiv
+graphics/tesseract
 graphics/zathura
 graphics/zathura-djvu
 graphics/zathura-pdf-mupdf
 graphics/zathura-ps
 java/bootstrap-openjdk8
 java/bootstrap-openjdk11
-java/icedtea-web
 java/intellij
 java/javavmwrapper
 java/openjdk8
@@ -43,6 +45,7 @@ java/openjdk11
 java/openjfx8-devel
 java/visualvm
 mail/mutt
+math/scilab
 misc/mbuffer
 misc/mc-light
 multimedia/ffmpeg
@@ -55,6 +58,9 @@ net/netcat
 net/rsync
 net/tigervnc
 net/x11vnc
+net-im/dino
+net-im/gajim
+net-im/psi
 ports-mgmt/poudriere
 ports-mgmt/pkg_cleanup
 print/texlive-full
@@ -62,8 +68,12 @@ russian/aspell
 russian/hunspell
 russian/mueller-dic
 security/kpcli
+security/libu2f-host
+security/openvpn
 security/sudo
+security/u2f-devd
 security/vuxml
+shells/zsh
 sysutils/bhyve-firmware
 sysutils/grub2-bhyve
 sysutils/htop
@@ -72,6 +82,8 @@ sysutils/lsof
 sysutils/rsnapshot
 sysutils/smartmontools
 sysutils/tmux
+sysutils/uhidd
+sysutils/usbutils
 sysutils/zfs-periodic
 textproc/antiword
 textproc/en-aspell
@@ -103,6 +115,7 @@ x11/printscreen
 x11/rxvt-unicode
 x11/setxkbmap
 x11/slim
+x11/xbindkeys
 x11/xlockmore
 x11/xorg
 x11/xxkb
