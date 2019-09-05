@@ -10,6 +10,8 @@ cad/librecad
 databases/mysql80-client
 databases/mysql80-server
 databases/sqldeveloper
+deskutils/py-khard
+deskutils/py-vdirsyncer
 deskutils/xchm
 devel/git
 devel/gradle
