@@ -34,6 +34,7 @@ graphics/gimp
 graphics/qiv
 graphics/sxiv
 graphics/tesseract
+graphics/yed
 graphics/zathura
 graphics/zathura-djvu
 graphics/zathura-pdf-mupdf
@@ -47,9 +48,10 @@ java/openjdk11
 java/openjfx8-devel
 java/visualvm
 mail/mutt
+math/octave
 math/scilab
 misc/mbuffer
-misc/mc-light
+misc/vifm
 multimedia/ffmpeg
 multimedia/mplayer
 multimedia/pwcview
@@ -58,7 +60,6 @@ multimedia/webcamd
 net/linphone
 net/netcat
 net/rsync
-net/tigervnc
 net/x11vnc
 net-im/dino
 net-im/gajim
@@ -81,6 +82,7 @@ sysutils/grub2-bhyve
 sysutils/htop
 sysutils/iocage
 sysutils/kiconvtool
+sysutils/lfm
 sysutils/lsof
 sysutils/rsnapshot
 sysutils/smartmontools
@@ -97,7 +99,6 @@ ukrainian/hunspell
 www/firefox
 www/iridium
 www/npm
-www/palemoon
 www/privoxy
 www/tomcat9
 www/youtube_dl
@@ -112,7 +113,7 @@ x11-fonts/terminus-font
 x11-themes/gtk-engines2
 x11-themes/gtk-murrine-engine
 x11-wm/awesome
-x11-wm/xfce4
+x11-wm/icewm
 x11/nvidia-driver-340
 x11/printscreen
 x11/rxvt-unicode
