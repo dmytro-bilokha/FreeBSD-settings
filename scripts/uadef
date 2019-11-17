@@ -17,8 +17,12 @@
 
 . /etc/rc.subr
 name="uadef"
+rcvar=uadef_enable
 start_cmd="${name}_start"
 stop_cmd=":"
+
+load_rc_config $name
+: ${uadef_enable:=no}
 
 uadef_find_pcm() {
     uadef_uaudio_number=''
@@ -45,5 +49,4 @@ uadef_start() {
     echo "No specified uaudio device(s) found"
 }
 
-load_rc_config $name
 run_rc_command "$1"
