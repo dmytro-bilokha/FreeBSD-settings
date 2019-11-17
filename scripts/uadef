@@ -1,0 +1,49 @@
+#!/bin/sh
+
+# PROVIDE: uadef
+# REQUIRE: LOGIN
+#
+# This script sets USB audio as default sound device.
+#
+# Add the following line to /etc/rc.conf to enable uadef:
+# uadef_enable="YES"
+#
+# Also you shoud set one or both variables in /etc/rc.conf, example:
+# uadef_first_desc="SMSL Q5 AMP"
+# uadef_second_desc="Plantronics C520-M"
+#
+# Each variable represents searchable string in the uaudio device description.
+# To see all device descriptions use a command 'sysctl dev.uaudio | grep desc:'.
+
+. /etc/rc.subr
+name="uadef"
+start_cmd="${name}_start"
+stop_cmd=":"
+
+uadef_find_pcm() {
+    uadef_uaudio_number=''
+    uadef_pcm_number=''
+    while [ $# -ne 0 ]; do
+        uadef_uaudio_number=`sysctl dev.uaudio | grep -m 1 "dev\.uaudio\..\.%desc:.*$1.*" | cut -d . -f 3`
+        if [ -n "${uadef_uaudio_number}" ]; then
+            uadef_pcm_number=`sysctl dev.pcm | grep -m 1 "dev\.pcm\..\.%parent: uaudio${uadef_uaudio_number}" | cut -d . -f 3`
+        fi
+        if [ -n "${uadef_pcm_number}" ]; then
+            return 0
+        fi
+        shift
+    done
+}
+
+uadef_start() {
+    uadef_find_pcm "${uadef_first_desc}" "${uadef_second_desc}"
+    if [ -n "${uadef_pcm_number}" ]; then
+        echo "Settind default pcm${uadef_pcm_number} from uaudio${uadef_uaudio_number}"
+        sysctl "hw.snd.default_unit=${uadef_pcm_number}"
+        exit 0
+    fi
+    echo "No specified uaudio device(s) found"
+}
+
+load_rc_config $name
+run_rc_command "$1"
