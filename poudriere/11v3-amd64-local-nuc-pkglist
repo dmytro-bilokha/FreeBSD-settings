@@ -1,9 +1,10 @@
-dns/inadyn
 editors/vim-tiny
-java/openjdk8
+java/openjdk11
 net/netcat
 net-p2p/transmission-daemon
+ports-mgmt/pkg
 ports-mgmt/poudriere
+security/openvpn
 sysutils/tmux
 sysutils/zfs-periodic
 www/transmission-web
