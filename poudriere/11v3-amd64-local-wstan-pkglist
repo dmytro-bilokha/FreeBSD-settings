@@ -31,6 +31,7 @@ ftp/wget
 graphics/evince-lite
 graphics/geeqie
 graphics/gimp
+graphics/libqrencode
 graphics/qiv
 graphics/sxiv
 graphics/tesseract
