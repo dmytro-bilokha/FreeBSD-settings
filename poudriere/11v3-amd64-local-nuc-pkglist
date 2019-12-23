@@ -1,3 +1,5 @@
+databases/mysql80-client
+databases/mysql80-server
 editors/vim-tiny
 java/openjdk11
 net/netcat
