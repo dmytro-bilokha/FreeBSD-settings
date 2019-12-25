@@ -34,7 +34,6 @@ graphics/gimp
 graphics/libqrencode
 graphics/qiv
 graphics/sxiv
-graphics/tesseract
 graphics/yed
 graphics/zathura
 graphics/zathura-djvu
@@ -80,7 +79,6 @@ shells/zsh
 sysutils/htop
 sysutils/iocage
 sysutils/kiconvtool
-sysutils/lfm
 sysutils/lsof
 sysutils/rsnapshot
 sysutils/smartmontools
