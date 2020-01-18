@@ -7,6 +7,7 @@ audio/flac
 audio/mpg321
 audio/virtual_oss
 cad/librecad
+comms/py-hidapi
 databases/mysql80-client
 databases/mysql80-server
 databases/sqldeveloper
@@ -16,7 +17,13 @@ deskutils/xchm
 devel/git
 devel/gradle
 devel/maven
+devel/py-aenum
+devel/py-libusb1
 devel/py-pip
+devel/py-prompt_toolkit
+devel/py-six
+devel/py-uhid-freebsd
+devel/py-usb
 devel/subversion
 dns/dnsmasq
 editors/codelite
@@ -47,6 +54,7 @@ java/javavmwrapper
 java/openjdk8
 java/openjdk11
 java/visualvm
+lang/cython
 mail/mutt
 math/octave
 math/scilab
@@ -73,6 +81,8 @@ russian/mueller-dic
 security/kpcli
 security/libu2f-host
 security/openvpn
+security/py-ecdsa
+security/py-ed25519ll
 security/sudo
 security/u2f-devd
 security/vuxml
