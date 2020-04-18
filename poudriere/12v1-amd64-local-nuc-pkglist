@@ -1,5 +1,6 @@
 databases/mysql80-client
 databases/mysql80-server
+dns/dnscrypt-proxy2
 editors/vim-tiny
 java/openjdk11
 net/netcat
@@ -9,4 +10,5 @@ ports-mgmt/poudriere
 security/openvpn
 sysutils/tmux
 sysutils/zfs-periodic
+www/privoxy
 www/transmission-web
