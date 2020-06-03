@@ -34,6 +34,7 @@ editors/vim
 emulators/virtualbox-ose
 emulators/virtualbox-ose-kmod
 finance/electrum
+finance/moneymanagerex
 ftp/lftp
 ftp/wget
 graphics/evince-lite
