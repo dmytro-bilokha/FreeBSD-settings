@@ -65,6 +65,8 @@ misc/vifm
 multimedia/ffmpeg
 multimedia/mplayer
 multimedia/pwcview
+multimedia/v4l_compat
+multimedia/v4l-utils
 multimedia/vdpauinfo
 multimedia/webcamd
 net/linphone
