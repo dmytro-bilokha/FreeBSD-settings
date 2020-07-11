@@ -24,7 +24,7 @@ devel/py-pip
 devel/py-prompt_toolkit
 devel/py-six
 devel/py-uhid-freebsd
-devel/py-usb
+devel/py-pyusb
 devel/subversion
 dns/dnsmasq
 editors/codelite
