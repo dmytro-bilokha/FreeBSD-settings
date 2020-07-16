@@ -6,9 +6,12 @@ java/openjdk11
 net/netcat
 net-p2p/transmission-daemon
 ports-mgmt/pkg
+ports-mgmt/pkg_cleanup
 ports-mgmt/poudriere
 security/openvpn
 sysutils/tmux
 sysutils/zfs-periodic
+www/apache24
 www/privoxy
+www/tomcat9
 www/transmission-web
